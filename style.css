@@ -3,7 +3,7 @@
     --main-font-family:  'Roboto', sans-serif;
     --btn-font-family: 'Montserrat', sans-serif;
     --main-color-text:white;
-    --main-color:grey/*#1B1B1B/**/;
+    --main-color:#1B1B1B/*grey/**/;
     --red-color:#F65282;
 }
 @media(min-width: 900px) {
@@ -104,7 +104,7 @@ color: #272142;
     margin: 0px auto;
     justify-content: space-between;
     align-items: stretch;
-    margin-top: 40px;
+    margin-top: 50px;
     
   }
   
@@ -220,8 +220,8 @@ header{
 
 footer{
     background:#282323;
-    padding: 30px 0;
-    margin-top:30px;
+    padding: 40px 0;
+    margin-top:50px;
 }
 
  footer p{
