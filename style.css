@@ -3,7 +3,7 @@
     --main-font-family:  'Roboto', sans-serif;
     --btn-font-family: 'Montserrat', sans-serif;
     --main-color-text:white;
-    --main-color:#1B1B1B/*grey*/;
+    --main-color:grey/*#1B1B1B/**/;
     --red-color:#F65282;
 }
 @media(min-width: 900px) {
@@ -209,3 +209,35 @@ nav a:hover{
     color:var(--red-color);
 
 }
+i{
+    color:var(--main-color-text);
+}
+
+header{
+    background-color:  #202020;
+    
+}
+
+footer{
+    background:#282323;
+    padding: 30px 0;
+    margin-top:30px;
+}
+
+ footer p{
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: right;
+color:var(--main-color-text);
+ }
+
+ .social a{
+    padding:0 10px;    
+ }
+
+ .social i:hover{
+    color:var(--red-color);
+ }
