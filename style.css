@@ -114,6 +114,7 @@ color: #272142;
  .page-about{
     margin-top: 30px;
  }
+
 .page-about h1{
     font-family: 'Roboto';
     font-style: normal;
@@ -156,6 +157,7 @@ align-items: center;
 padding: 20px;
 color:var(--main-color-text);
 }
+
 .page-about .but{
     
     margin:  0;
@@ -177,6 +179,11 @@ text-align: center;
 color:var(--main-color-text);
  }
  
+ .bodycontacts{
+    background-color: var(--main-color);
+    margin: auto;
+    height: 800px;
+ }
  .contact{
     margin-top: 80px;
 }
@@ -209,6 +216,7 @@ nav a:hover{
     color:var(--red-color);
 
 }
+
 i{
     color:var(--main-color-text);
 }
@@ -240,4 +248,8 @@ color:var(--main-color-text);
 
  .social i:hover{
     color:var(--red-color);
+ }
+
+ footer i{
+    color:var(--main-color-text);
  }
