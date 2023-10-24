@@ -6,14 +6,28 @@
     --main-color:#1B1B1B/*grey/**/;
     --red-color:#F65282;
 }
-@media(min-width: 900px) {
- 
-
+@media (max-width: 1200px){
+    body .container {  
+       display: inline;
+       
+              
+    }
+   
+    body .container img{
+        display: block;
+        margin-left: auto;
+    margin-right: auto;
+    }
+   
 }
 
-@media(min-width: 1400px) {
-     
-       
+@media(max-width: 1460px) {
+    body .imghero{      
+        width:100%;
+        background:  var(--main-color);
+    }
+    
+
 
 }
 body{
