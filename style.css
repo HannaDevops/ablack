@@ -14,11 +14,14 @@
        
         padding: 0px;
 }
-body .imghero{ 
+body .imghero { 
     height:400px;
  }
- body footer{
-    margin: 10px;
+  body .page-about h1{
+    font-size: 90%;
+  } 
+ footer{
+    margin: 0px;
     padding: 5px;
  }
 }
@@ -28,14 +31,15 @@ body .imghero{
        
               
     }
+
    
-    body .container img{
+    body .container img, body .ahero, body .page-about{
         display: block;
         margin-left: auto;
     margin-right: auto;
     width: 80%;
     }
-   
+        
 }
 
 @media(max-width: 1460px) {
@@ -43,7 +47,9 @@ body .imghero{
         width:100%;
         background:  var(--main-color);
     }
-    
+    .camera-div{
+        width:80%;
+    }
 
 
 }
